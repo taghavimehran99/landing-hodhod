@@ -18,6 +18,10 @@
 
 
 
+/* hovwe */
+
+
+
 .btn-mor-faq{
 
     color: #F78C1E;
@@ -35,30 +39,56 @@
 }
 
 
-
-
-
 .nnhov{
-
-    color: #F78C1E;
-    
+    color: #F78C1E;  
 }
 .nnhovw{
-
     color: #fff;
 }
 
 
 .nnhov:hover{
 color: #fff;
-
-
-
 }
 
 .nnhovw:hover{
     color: #F78C1E;
 
-
-
 }
+
+
+
+
+
+
+.starthod{
+
+    background-color: #F78C1E;
+     color: #ffffff;
+}
+
+
+
+
+.startmoshaver{
+
+    background-color: #ffffff;
+     color: #FFA933;
+}
+
+
+.starthod:hover{
+
+    background-color: #ffffff;
+     color: #F78C1E;
+}
+
+.startmoshaver:hover{
+
+    background-color: #F78C1E;
+    color: #ffffff;
+}
+
+
+
+
