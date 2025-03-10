@@ -33,3 +33,32 @@
     padding: 15px;
     border-radius: 30px;
 }
+
+
+
+
+
+.nnhov{
+
+    color: #F78C1E;
+    
+}
+.nnhovw{
+
+    color: #fff;
+}
+
+
+.nnhov:hover{
+color: #fff;
+
+
+
+}
+
+.nnhovw:hover{
+    color: #F78C1E;
+
+
+
+}
