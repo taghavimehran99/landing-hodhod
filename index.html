@@ -544,7 +544,7 @@
       </div>
     </div>
 
-    <div class="mor-faq" id="mor-faq"  >
+    <div class="highlight" id="targetElement"  >
 
     <div class="accordion-item mb-3 " >
       <h2 class="accordion-header">
@@ -691,8 +691,8 @@
 
 
 
-<div class="container mt-5 mb-5 text-center " style="">
-    <a class="btn-mor-faq" id="btn-faq" style=" " href=""> موارد بیشتر</a>
+<div class="container mt-5 mb-5 text-center" id="toggleLink" >
+    <a class="btn-mor-faq"   href=""> موارد بیشتر</a>
 </div>
 
 <footer class="bg-light mt-3 p-3 ">
@@ -748,25 +748,25 @@
      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
      crossorigin="anonymous"></script>
      <script>
-      document.getElementById('btn-faq').addEventListener('click', function(event) {
-    event.preventDefault(); // جلوگیری از رفتار پیش‌فرض لینک
+//       document.getElementById('btn-faq').addEventListener('click', function(event) {
+//     event.preventDefault(); // جلوگیری از رفتار پیش‌فرض لینک
 
-    // انتخاب تمام آیتم‌های سوالات اضافی
-    const moreFaqItems = document.querySelectorAll('.mor-faq .accordion-item');
+//     // انتخاب تمام آیتم‌های سوالات اضافی
+//     const moreFaqItems = document.querySelectorAll('.mor-faq .accordion-item');
 
-    // بررسی وضعیت نمایش آیتم‌ها
-    const isHidden = moreFaqItems[0].classList.contains('d-none');
+//     // بررسی وضعیت نمایش آیتم‌ها
+//     const isHidden = moreFaqItems[0].classList.contains('d-none');
 
-    // اگر آیتم‌ها مخفی هستند، نمایش داده شوند
-    if (isHidden) {
-        moreFaqItems.forEach(item => item.classList.remove('d-none'));
-        this.textContent = 'بستن موارد'; // تغییر متن دکمه به "بستن موارد"
-    } else {
-        // اگر آیتم‌ها نمایش داده شده‌اند، مخفی شوند
-        moreFaqItems.forEach(item => item.classList.add('d-none'));
-        this.textContent = 'موارد بیشتر'; // تغییر متن دکمه به "موارد بیشتر"
-    }
-});
+//     // اگر آیتم‌ها مخفی هستند، نمایش داده شوند
+//     if (isHidden) {
+//         moreFaqItems.forEach(item => item.classList.remove('d-none'));
+//         this.textContent = 'بستن موارد'; // تغییر متن دکمه به "بستن موارد"
+//     } else {
+//         // اگر آیتم‌ها نمایش داده شده‌اند، مخفی شوند
+//         moreFaqItems.forEach(item => item.classList.add('d-none'));
+//         this.textContent = 'موارد بیشتر'; // تغییر متن دکمه به "موارد بیشتر"
+//     }
+// });
      </script>
 </body>
 </html>

@@ -3,16 +3,11 @@
 }
 
 
-.mor-faq{
 
-    display: none;
+.highlight{
+    display: none   ;
+    
 }
-
-.mor-faq-show{
-
-   
-}
-
 
 
 /* hovwe */
@@ -114,5 +109,17 @@ position: fixed;
   .accordion-button:hover {
     background-color: #f8f9fa; /* تغییر رنگ زمینه هنگام hover */
   }
+
+
+
+
+
+
+
+ /* موارد بیشتر المان های نان و ان نان  */
+
+
+
+
 
 
