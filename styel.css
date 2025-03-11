@@ -96,5 +96,23 @@ position: fixed;
 }
 
 
+/* ***** */
+
+/* تغییر رنگ دکمه آکاردئون */
+.accordion-button {
+    background-color: white; /* تغییر رنگ زمینه به سفید */
+    color: black; /* تغییر رنگ متن به سیاه (یا هر رنگ دیگری که می‌خواهید) */
+  }
+  
+  /* تغییر رنگ دکمه آکاردئون وقتی باز است */
+  .accordion-button:not(.collapsed) {
+    background-color: white; /* تغییر رنگ زمینه به سفید */
+    color: black; /* تغییر رنگ متن به سیاه */
+  }
+  
+  /* تغییر رنگ دکمه آکاردئون هنگام hover (اختیاری) */
+  .accordion-button:hover {
+    background-color: #f8f9fa; /* تغییر رنگ زمینه هنگام hover */
+  }
 
 
