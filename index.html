@@ -486,5 +486,26 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
      crossorigin="anonymous"></script>
+     <script>
+      document.getElementById('btn-faq').addEventListener('click', function(event) {
+    event.preventDefault(); // جلوگیری از رفتار پیش‌فرض لینک
+
+    // انتخاب تمام آیتم‌های سوالات اضافی
+    const moreFaqItems = document.querySelectorAll('.mor-faq .accordion-item');
+
+    // بررسی وضعیت نمایش آیتم‌ها
+    const isHidden = moreFaqItems[0].classList.contains('d-none');
+
+    // اگر آیتم‌ها مخفی هستند، نمایش داده شوند
+    if (isHidden) {
+        moreFaqItems.forEach(item => item.classList.remove('d-none'));
+        this.textContent = 'بستن موارد'; // تغییر متن دکمه به "بستن موارد"
+    } else {
+        // اگر آیتم‌ها نمایش داده شده‌اند، مخفی شوند
+        moreFaqItems.forEach(item => item.classList.add('d-none'));
+        this.textContent = 'موارد بیشتر'; // تغییر متن دکمه به "موارد بیشتر"
+    }
+});
+     </script>
 </body>
 </html>
