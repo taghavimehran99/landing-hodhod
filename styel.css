@@ -61,7 +61,19 @@ color: #fff;
      /* width: 150px; */
 }
 
+.starthod-fixbuton{
 
+    background-color: #FFA933;
+    color: #ffffff;
+    z-index: 1030;
+    padding: ;
+}
+
+
+/* .div-starthod-fixbuton{
+
+position: fixed;
+} */
 
 
 .startmoshaver{
