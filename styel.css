@@ -1,3 +1,35 @@
+
+@font-face {
+    font-family: one;
+    src: url(./font/Barlow-Black.ttf)format('normal');
+}
+
+
+@font-face {
+    font-family: two;
+    src: url(./font/Barlow-Bold.ttf)format('normal');
+}
+
+
+@font-face {
+    font-family: three;
+    src: url(./font/Barlow-ExtraBold.ttf)format('normal');
+}
+
+@font-face {
+    font-family: four;
+    src: url(./font/Barlow-Light.ttf)format('normal');
+}
+
+@font-face {
+    font-family: five;
+    src: url(./font/Barlow-Medium.ttf)format('normal');
+}
+
+
+
+
+
 .hlp-img{
     text-align: center !important;
 }
