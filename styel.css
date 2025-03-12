@@ -80,6 +80,22 @@ color: #fff;
 
 }
 
+.tex-rahnam{
+color: #ffffff;
+text-shadow: #a3a3a3 2px 2px;
+
+}
+
+
+
+.tex-rahnam:hover{
+
+    color: #000000;
+}
+
+/* end hover */
+
+
 
 .starthod{
 
