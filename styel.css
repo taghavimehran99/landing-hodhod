@@ -164,14 +164,28 @@ position: fixed;
 
 
 
-
+  .accordion-button:focus {
+    outline: none; /* حذف outline */
+    box-shadow: none; /* حذف سایه (اختیاری) */
+    
+  }
 
 
 
  /* موارد بیشتر المان های نان و ان نان  */
 
 
+.mehran{
+height: 100px;
+width: 100px;
+background: #000000;
+
+}
 
 
-
-
+.mehran:hover{
+    background: #ffffff;
+    height: 100px;
+    width: 100px;
+background-image: url(./imags/1.svg);
+}
